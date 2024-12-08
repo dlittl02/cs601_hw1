@@ -1,0 +1,71 @@
+/*
+Name: Deasia Little
+Class: CS601 
+Assignment: Homework 1 November 2, 2024
+*/
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    justify-content: left;
+    margin: 0;
+}
+
+/* Style for the form container */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Style for form labels and inputs */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: darkgreen;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 50%;
+}
+
+/* Style for checkbox label */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style for submit button */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 25%;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Style for success message */
+#message {
+    display: none;
+    margin-top: 15px;
+    font-size: 16px;
+    color:  black;
+    text-align: center;
+}
